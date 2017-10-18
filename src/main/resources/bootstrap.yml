@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: quoteservice
+  cloud:
+    config:
+      uri: http://localhost:8000
+management:
+  security:
+    enabled: false
